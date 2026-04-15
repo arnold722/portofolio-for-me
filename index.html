@@ -23,8 +23,15 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Contact</a></li>
+                <li onclick=showSidebar()><img src="menu_44dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="40"></li>
             </ul>
         </nav>
      </header>
+     <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+     </script>
 </body>
 </html>
