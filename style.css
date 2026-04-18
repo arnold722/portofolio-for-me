@@ -105,20 +105,7 @@ img{
     display: none;
 }
 
-@media(max-width:800px){
-    .hideonmobile{
-        display: none;
-    }
 
-    .menu-button{
-    display: block;
-}
-}
-@media(max-width:400px){
-    .sidebar{
-        width: 100%;
-    }
-}
 
 
 
