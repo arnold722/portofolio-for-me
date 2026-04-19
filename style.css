@@ -133,12 +133,84 @@ nav li:first-child{
 }
 
 main{
-    height: 150vh;
-    place-content: center;
+    height: 120vh;
     display: flex;
     align-items: center;
     
 }
+
+
+.homeses{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+}
+
+.homes{
+    padding: 10px;
+}
+
+.homes .petit-home{
+    color: white;
+}
+
+.homes .petit-home h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.homes .petit-home p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.homes .btn-box-un{
+    height: 50px;
+}
+
+
+.btn-box-un a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: 100%;
+    padding: 5px;
+    background: #f08800;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #0A102F;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box-un a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #170031;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.btn-box-un a:hover::before{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-box-un a:hover{
+    color: #f08800;
+}
+
 
 
 
