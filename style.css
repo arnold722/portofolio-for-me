@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: #170031;
-    color: #333;
+    color: #a1a1a1;
     display: grid;
     place-items: center;
 }
@@ -108,8 +112,10 @@ img{
 
 @media(max-width:840px){
     header{
-    margin-right: 20px;
-    margin-left: 20px;
+    width: min(100%, 620px);
+}
+nav li:first-child{
+    margin-right: 0px;
 }
 }
 
