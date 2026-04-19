@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+body{
     scroll-behavior: smooth;
 }
 
@@ -23,13 +23,15 @@ header{
     display: flex;
     justify-content: center;
     margin: auto;
+    top: 0;
     margin-top: 50px;
     width: min(100%, 820px);
     backdrop-filter: blur(60px);
     border-radius: 70px;
     background-color:rgba(71, 0, 138, 0.315);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(231, 231, 231, 0.3);
+    position: fixed;
 
 }
 header:hover{
@@ -61,7 +63,7 @@ nav a{
     border-radius: 100px;
 }
 nav a:hover{
-    background-color: #e2e2e22f;
+    background-color: #ffffff18;
     color: #F0F0F0;
     border-radius: 100px;
     box-shadow:2px 2px 10px 1px rgba(0,0,0,0.2);
@@ -117,6 +119,14 @@ img{
 nav li:first-child{
     margin-right: 0px;
 }
+}
+
+main{
+    height: 150vh;
+    place-content: center;
+    display: flex;
+    align-items: center;
+    
 }
 
 
