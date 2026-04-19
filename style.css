@@ -179,7 +179,6 @@ main{
     padding: 5px;
     background: #f08800;
     border: none;
-    border-radius: 8px;
     font-size: 20px;
     color: #0A102F;
     text-decoration: none;
@@ -187,9 +186,11 @@ main{
     letter-spacing: 2px;
     z-index: 1;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .btn-box-un a::before{
+    border-radius: 10px;
     content: '';
     position: absolute;
     top: 0;
@@ -197,14 +198,14 @@ main{
     width: 0;
     height: 100%;
     background-color: #170031;
-    z-index: -1;
+    z-index: -10;
     transition: .5s;
+    border-radius: 8px;
 
 }
 
 .btn-box-un a:hover::before{
     width: 100%;
-    border-radius: 8px;
 }
 
 .btn-box-un a:hover{

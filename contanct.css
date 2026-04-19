@@ -1,0 +1,129 @@
+
+.home{
+    padding: 50px;
+
+}
+
+
+.home-all{
+    display: flex;
+    justify-content: space-around;
+}
+.home-input {
+    margin-right: 10px;
+    padding: 30px;
+    width: 50%;
+    background: #170031;
+    transition: .3s;
+    box-shadow:3px 3px 30px 4px rgba(0,0,0,0.4);
+    border-radius: 20px;
+
+}
+.home-input:hover{
+    box-shadow:3px 3px 30px 4px rgba(0,0,0,0.5);
+}
+.home-input input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #e4e4e4;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+}
+.home-input ::placeholder{
+    color: #bebebe;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.home-input textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: transparent;
+    color: #c9c9c9;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+
+.home-text{
+    margin-left: 10px;
+    padding: 20px;
+    padding-top: 60px;
+    background: none;
+    width: 50%;
+    height: 60vh;
+}
+.home-text h3{
+    font-size: 45px;
+}
+.home-text p{
+    font-size: 17px;
+}
+
+.home .btn-box{
+    max-width: 345px;
+    height: 40px;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    height: 100%;
+    padding: 5px;
+    background: #f08800;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #0A102F;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #170031;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+.btn-box a:hover{
+    color: #f08800;
+}
+
+.icons {
+    padding: 20px;
+    width: 100%;
+}
+.icons a{
+    margin-left: 20px;
+}
+.icons img{
+    transition: ease-in-out .2s;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}
