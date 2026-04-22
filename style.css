@@ -43,6 +43,7 @@ header{
     backdrop-filter: blur(10px);
     border: 1px solid rgba(231, 231, 231, 0.3);
     position: fixed;
+    z-index: 1000;
 
 }
 header:hover{
@@ -210,6 +211,23 @@ main{
 
 .btn-box-un a:hover{
     color: #f08800;
+}
+footer{
+    width: 100%;
+    height: 88.5vh;
+    background-color:#120027;
+    border-top: 1px solid rgba(255, 255, 255, 0.055);
+}
+
+.copy{
+    background-color: #100022;
+    width: 100%;
+    height: 70px;
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+    place-content: center;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.055);
 }
 
 
