@@ -207,6 +207,8 @@ main{
 
 .btn-box-un a:hover::before{
     width: 100%;
+    border: 1px solid #f08800;
+    
 }
 
 .btn-box-un a:hover{
