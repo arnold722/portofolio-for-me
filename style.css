@@ -1,3 +1,7 @@
+:root{
+    color-scheme: light dark;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -158,7 +162,7 @@ main{
 
 .homes .petit-home h1{
     margin-bottom: 20px;
-    font-size: 70px;
+    font-size: clamp(3rem, 2rem + 2vw, 15rem);
 }
 .homes .petit-home p{
     margin-bottom: 20px;
@@ -216,7 +220,7 @@ main{
 }
 footer{
     width: 100%;
-    height: 88.5vh;
+    height: 100vh;
     background-color:#120027;
     border-top: 1px solid rgba(255, 255, 255, 0.055);
 }
