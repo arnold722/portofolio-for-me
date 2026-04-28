@@ -7,13 +7,13 @@
 
 
 .home-all{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    
 }
 .home-input {
-    margin-right: 10px;
     padding: 30px;
-    width: 50%;
+    flex: 1 1 10px;
     background: #170031;
     transition: .3s;
     box-shadow:3px 3px 30px 4px rgba(0,0,0,0.4);
@@ -31,11 +31,11 @@
     color: #e4e4e4;
     font-size: 15px;
     outline: none;
-    border: 1px solid rgb(100, 100, 100);
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 10px;
 }
 .home-input ::placeholder{
-    color: #bebebe;
+    color: #8b8b8b;
     margin-left: 0;
     padding: 10px;
 }
@@ -54,15 +54,14 @@
 
 
 .home-text{
-    margin-left: 10px;
     padding: 20px;
     padding-top: 60px;
     background: none;
-    width: 50%;
-    height: 60vh;
+    width: 45%;
+    height: auto;
 }
 .home-text h3{
-    font-size: 45px;
+    font-size: 55px;
 }
 .home-text p{
     font-size: 17px;
@@ -103,6 +102,7 @@
     background-color: #170031;
     z-index: -1;
     transition: .5s;
+    border: 1px solid #f08800;
 
 }
 
@@ -115,6 +115,7 @@
 }
 
 .icons {
+    display: flex;
     padding: 20px;
     width: 100%;
 }
