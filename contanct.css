@@ -7,13 +7,12 @@
 
 
 .home-all{
+    gap: 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
 }
 .home-input {
     padding: 30px;
-    flex: 1 1 10px;
     background: #170031;
     transition: .3s;
     box-shadow:3px 3px 30px 4px rgba(0,0,0,0.4);
@@ -57,7 +56,6 @@
     padding: 20px;
     padding-top: 60px;
     background: none;
-    width: 45%;
     height: auto;
 }
 .home-text h3{
