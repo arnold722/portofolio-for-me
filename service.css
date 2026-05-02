@@ -20,9 +20,12 @@ section {
     width: 280px;
     height: 300px;
     border-radius: 10px;
+    border: 1px solid rgba(83, 83, 83, 0.315);
     transition: .2s;
+    place-content: center;
+    text-align: center;
 }
 .case .comp:hover{
-    box-shadow: 3px 3px 30px 4px rgba(71, 0, 138, 0.315);
-    border: 1px solid rgba(83, 83, 83, 0.315);
+    box-shadow: 3px 3px 40px 4px rgba(71, 0, 138, 0.315);
+    border: none;
 }
