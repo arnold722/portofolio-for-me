@@ -16,19 +16,23 @@ section {
 }
 
 .case .comp{
+    aspect-ratio: 1;
+    transform-origin: center;
+    transition: transform 0.5s ease;
     padding: 20px;
     background-color: #100022;
     width: 330px;
     height: 300px;
     border-radius: 10px;
-    border: 1px solid rgba(83, 83, 83, 0.315);
+    borde: 1px solid rgba(83, 83, 83, 0.315);
     transition: .2s;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
-.case .comp:hove{
-    box-shadow: 3px 3px 40px 4px rgba(71, 0, 138, 0.315);
+.case .comp:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
 .case .comp h1{
