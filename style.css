@@ -181,7 +181,7 @@ main{
     max-width: 250px;
     height: 100%;
     padding: 12px;
-    background: #f08800;
+    background: #d86100;
     border: none;
     font-size: 20px;
     color: #0A102F;
@@ -210,12 +210,12 @@ main{
 
 .btn-box-un a:hover::before{
     width: 100%;
-    border: 1px solid #f08800;
+    border: 1px solid #d86100;
     
 }
 
 .btn-box-un a:hover{
-    color: #f08800;
+    color: #d86100;
 }
 footer{
     margin-top: 100px;

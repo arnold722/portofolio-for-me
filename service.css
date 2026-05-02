@@ -1,6 +1,6 @@
 
 section {
-    margin-top: 180px;
+    margin-top: 200px;
     width: 100%;
     height: auto;
     
@@ -9,23 +9,34 @@ section {
 .case{
     padding: 20px;
   display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 100px;
 }
 
 .case .comp{
+    padding: 20px;
     background-color: #100022;
-    width: 280px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     border: 1px solid rgba(83, 83, 83, 0.315);
     transition: .2s;
-    place-content: center;
     text-align: center;
 }
 .case .comp:hover{
     box-shadow: 3px 3px 40px 4px rgba(71, 0, 138, 0.315);
-    border: none;
+}
+
+.case .comp h1{
+   font-size: 20px;
+   text-align: left;
+   margin-bottom: 10px;
+}
+.case .comp p{
+   font-size: 15px;
+   text-align: left;
+   place-content: center;
+   align-items: center;
 }
