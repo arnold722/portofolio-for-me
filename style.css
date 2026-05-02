@@ -180,7 +180,7 @@ main{
     align-items: center;
     max-width: 250px;
     height: 100%;
-    padding: 12px;
+    padding: 10px 20px 10px 20px;
     background: #d86100;
     border: none;
     font-size: 20px;
@@ -190,11 +190,9 @@ main{
     letter-spacing: 2px;
     z-index: 1;
     overflow: hidden;
-    border-radius: 8px;
 }
 
 .btn-box-un a::before{
-    border-radius: 10px;
     content: '';
     position: absolute;
     top: 0;
@@ -204,7 +202,6 @@ main{
     background-color: #170031;
     z-index: -10;
     transition: .5s;
-    border-radius: 8px;
 
 }
 
