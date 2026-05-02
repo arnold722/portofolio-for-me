@@ -18,7 +18,7 @@ section {
 .case .comp{
     padding: 20px;
     background-color: #100022;
-    width: 300px;
+    width: 330px;
     height: 300px;
     border-radius: 10px;
     border: 1px solid rgba(83, 83, 83, 0.315);
@@ -44,4 +44,32 @@ section {
     color: #100022;
     font-weight: bold;
     text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-box-deux a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #100022;
+    z-index: -10;
+    transition: .4s;
+}
+
+.btn-box-deux a:hover::before{
+    width: 100%;
+    border: 1px solid #d86100;
+}
+
+.btn-box-deux a:hover{
+    color: #d86100;
 }
