@@ -2,20 +2,27 @@
 section {
     margin-top: 180px;
     width: 100%;
-    height: 400px;
+    height: auto;
     
 }
 
 .case{
     padding: 20px;
-    background-color: red;
   display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .case .comp{
     background-color: #100022;
-    width: 250px;
+    width: 280px;
     height: 300px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.case .comp:hover{
+    box-shadow: 3px 3px 30px 4px rgba(71, 0, 138, 0.315);
+    border: 1px solid rgba(83, 83, 83, 0.315);
 }
