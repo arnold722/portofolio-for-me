@@ -23,62 +23,25 @@ section {
     border-radius: 10px;
     border: 1px solid rgba(83, 83, 83, 0.315);
     transition: .2s;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
-.case .comp:hover{
+.case .comp:hove{
     box-shadow: 3px 3px 40px 4px rgba(71, 0, 138, 0.315);
 }
 
 .case .comp h1{
-   font-size: 20px;
-   text-align: left;
-   margin-bottom: 20px;
-   margin-top: 10px;
+   font-size: 22px;
 }
 .case .comp p{
-   font-size: 15px;
-   text-align: left;
-   place-content: center;
-   align-items: center;
+   font-size: 17px;
 }
 
-.comp .btn-box-un a{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 250px;
-    height: 100%;
-    padding: 10px;
-    background: #d86100;
-    font-size: 15px;
-    color: #0A102F;
+.btn-box-deux a{
+    background-color: #d86100;
+    padding: 10px 20px 10px 20px;
+    color: #100022;
+    font-weight: bold;
     text-decoration: none;
-    font-weight: 900;
-    letter-spacing: 2px;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.comp .btn-box-un a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #170031;
-    z-index: -10;
-    transition: .5s;
-
-}
-
-.comp .btn-box-un a:hover::before{
-    width: 100%;
-    border: 1px solid #d86100;
-    
-}
-
-.comp .btn-box-un a:hover{
-    color: #d86100;
 }
