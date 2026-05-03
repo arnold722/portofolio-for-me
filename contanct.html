@@ -10,27 +10,26 @@
 </head>
 <body>
   <!-- HEADER -->
-     <header>
-        <!-- NAVBAR -->
-        <nav class="navbar">
-            <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#"><img src="image/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Portofolio</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="contanct.html">Contact</a></li>
-            </ul>
-            <ul>
-                <li class="logo"><a href="#">ArnOld.</a></li>
-                <li class="hideonmobile"><a href="index.html">Home</a></li>
-                <li class="hideonmobile"><a href="about.html">About</a></li>
-                <li class="hideonmobile"><a href="service.html">Service</a></li>
-                <li class="hideonmobile"><a href="contanct.html">Contact</a></li>
-                <li class="menu-button" onclick=showSidebar()><img src="menu_44dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="40"></li>
-            </ul>
-        </nav>
-     </header>
+     <div class="page-wrapper">
+    <header class="site-header">
+      <div class="brand">
+        <a href="#" class="logo">ArnOld.</a>
+      </div>
 
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
      <!-- MAIN -->
      <main>
         <section class="home" id="contact">
