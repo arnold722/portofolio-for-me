@@ -1,4 +1,20 @@
-var prenom = "Arnold" , espace = ' ' , nom = "Leonce" ;
-var moi = prenom + espace + nom ;
+const sidebar = document.querySelector('.sidebar');
+const sidebarLinks = document.querySelectorAll('.sidebar a');
 
-alert(moi);
+function showSidebar() {
+    sidebar.classList.add('active');
+}
+
+function hideSidebar() {
+    sidebar.classList.remove('active');
+}
+
+sidebarLinks.forEach(link => {
+    link.addEventListener('click', hideSidebar);
+});
+
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+        hideSidebar();
+    }
+});

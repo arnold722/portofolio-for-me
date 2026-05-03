@@ -31,7 +31,8 @@ section {
     flex-direction: column;
 }
 .case .comp:hover{
-    transform: scale(1.02);
+    transform: scale(1.0);
+    cursor:context-menu;
     box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
