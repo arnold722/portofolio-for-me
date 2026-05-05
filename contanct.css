@@ -117,7 +117,7 @@ button{
 
 .icons {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
 .icons a{
@@ -136,15 +136,17 @@ button{
     height: auto;
     margin-top: 20px;
     padding: 15px;
-    line-height: 1.5;
+    line-height: 1.8;
     background: #170031;
     transition: .3s;
     box-shadow:3px 3px 30px 4px rgba(0,0,0,0.3);
     border-radius: 20px;
+    border: 1px solid rgb(29, 29, 29);
 }
 
 .links:hover{
     box-shadow:3px 3px 30px 4px rgba(0,0,0,0.5);
+    border: 1px solid rgb(17, 17, 17);
 }
 
 .links p{
