@@ -39,6 +39,10 @@
     padding: 10px;
 }
 
+button{
+    border: none;
+}
+
 .home-input textarea{
     width: 100%;
     padding: 10px;
@@ -124,4 +128,10 @@
 }
 .icons img:hover{
     transform: scale(1.2);
+}
+
+.links{
+    background-color: white;
+    width: 100%;
+    height: auto;
 }
