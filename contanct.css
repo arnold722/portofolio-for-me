@@ -1,6 +1,6 @@
 
 .home{
-    padding: 50px;
+    padding: 30px;
     margin-top: 100px;
 
 }
@@ -9,7 +9,7 @@
 .home-all{
     gap: 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
 }
 .home-input {
     padding: 30px;
@@ -132,6 +132,28 @@ button{
 
 .links{
     background-color: white;
-    width: 100%;
+    width: auto;
     height: auto;
+    margin-top: 20px;
+    padding: 15px;
+    line-height: 1.5;
+    background: #170031;
+    transition: .3s;
+    box-shadow:3px 3px 30px 4px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.links:hover{
+    box-shadow:3px 3px 30px 4px rgba(0,0,0,0.5);
+}
+
+.links p{
+    font-size: 14px;
+    color: #646464;
+}
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
 }
