@@ -54,6 +54,8 @@ body{
 
     .brand .logo {
       font-size: 1.4rem;
+      margin-right: 50px;
+      margin-left: 20px;
       font-weight: 800;
       letter-spacing: 0.08em;
       color: var(--text);
