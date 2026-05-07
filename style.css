@@ -53,6 +53,9 @@ body{
       top: 0;
       z-index: 1000;
     }
+    .site-header:hover{
+      box-shadow:3px 3px 30px 4px rgba(0,0,0,0.6);
+    }
 
     .brand .logo {
       font-size: 1.4rem;
