@@ -283,6 +283,7 @@ footer{
     height: 100vh;
     background-color:#120027;
     border-top: 1px solid rgba(255, 255, 255, 0.055);
+    text-align: center;
 }
 
 .copy{
@@ -294,6 +295,8 @@ footer{
     place-content: center;
     border-top: 1px solid rgba(255, 255, 255, 0.055);
 }
+
+
 
 
 
