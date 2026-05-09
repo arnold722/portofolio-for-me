@@ -78,20 +78,5 @@ section {
 .btn-box-deux a:hover{
     color: #d86100;
 }
-footer{
-    margin-top: 100px;
-    width: 100%;
-    height: 100vh;
-    background-color:#120027;
-    border-top: 1px solid rgba(255, 255, 255, 0.055);
-}
 
-.copy{
-    background-color: #100022;
-    width: 100%;
-    height: 70px;
-    color: rgb(63, 63, 63);
-    font-size: 18px;
-    place-content: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.055);
-}
+
