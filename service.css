@@ -79,5 +79,19 @@ section {
     color: #d86100;
 }
 
+.hero { display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 20px 0 10px; }
+.scene { width: 250px; height: 250px; perspective: 5000px; }
+.carousel { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; cursor: grab; }
+.panel { position: absolute; width: 200px; height: 200px; left: 25px; top: 10px; border-radius: 15px; overflow: hidden; border: 2px solid rgba(30,30,30,0.35); box-shadow: 0 0 15px rgba(30,30,30,0.7), inset 0 0 10px rgba(30,30,30,0.4); }
+.panel img { width: 100%; height: 100%; object-fit: cover; }
 
+@media (max-width: 500px) {
+    .cover-text h1 { font-size: 36px; }
+    .carousel { width: 220px; height: 220px; }
+    .panel { width: 160px; height: 160px; left: 30px; top: 10px; }
+    .milkshake-card, .blog-card, .order-card { min-width: 150px; width: 150px; }
+    .milkshake-card img { height: 180px; }
+    .blog-card img { height: 100px; }
+    .order-card img { height: 150px; }
+}
 
