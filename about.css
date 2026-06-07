@@ -39,6 +39,6 @@ input[type="checkbox"]{
 }
 .about .petit-about .image img{
   border-radius: 50%;
-  border: 1px solid rgb(53, 53, 53);
-  box-shadow:0 0 20px #00bbd471;
+  border: 1px solid #200044;
+  box-shadow:0 0 15px #3f0088;
 }
