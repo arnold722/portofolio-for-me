@@ -122,22 +122,21 @@ font-weight:600;
 }
 
 
-.project{
-    background-color: #38bdf8;
-    width: 100%;
-    height: auto;
-}
+
 
 .projects{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:50px;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:30px;
 max-width:900px;
 margin:auto;
 }
 .projects .div1{
-background-color: #100022;
-width: 100%;
-height: 200px;
+background:#100022;
+padding:80px;
+border-radius:8px;
+text-align:center;
+transition:0.3s;
+border: 1px solid rgba(83, 83, 83, 0.215);
 }
 
