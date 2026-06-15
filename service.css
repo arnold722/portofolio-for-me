@@ -174,4 +174,9 @@ font-weight:600;
     background-position: center;
 }
 
+.grid-item:hover{
+    transform: scale(1.1) rotate(5deg);
+    z-index: 1;
+}
+
 
