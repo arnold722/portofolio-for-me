@@ -94,6 +94,10 @@ grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 gap:30px;
 max-width:900px;
 margin:auto;
+transition: transform .3s ease;
+}
+.skills-grid:hover{
+transform: scale(0.97);
 }
 
 .skill-box{
@@ -177,6 +181,10 @@ font-weight:600;
 .grid-item:hover{
     transform: scale(1.1) rotate(5deg);
     z-index: 1;
+}
+
+.grid-container:hover .grid-item:not(:hover) {
+    transform: scale(0.95);
 }
 
 
