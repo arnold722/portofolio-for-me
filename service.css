@@ -1,3 +1,8 @@
+h1{
+    color: rgb(77, 77, 77);
+}
+
+
 section {
     margin-top: 200px;
     width: 100%;
@@ -98,6 +103,7 @@ border-radius:15px;
 text-align:center;
 transition:0.3s;
 border: 1px solid rgba(83, 83, 83, 0.215);
+cursor: auto;
 }
 
 .skill-box i{
@@ -121,22 +127,4 @@ margin-bottom:50px;
 font-weight:600;
 }
 
-
-
-
-.projects{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-gap:30px;
-max-width:900px;
-margin:auto;
-}
-
-.projects .div1{
-background:#100022;
-padding:80px;
-border-radius:8px;
-text-align:center;
-border: 1px solid rgba(83, 83, 83, 0.215);
-}
 
