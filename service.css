@@ -144,7 +144,7 @@ font-weight:600;
 }
 
 .item-1{
-    background-image: url(image/2.png);
+    background-image: url(image/1.png);
     background-size: cover;
     background-position: center;
 }
@@ -154,22 +154,22 @@ font-weight:600;
     background-position: center;
 }
 .item-3{
-    background-image: url(image/2.png);
+    background-image: url(image/3.png);
     background-size: cover;
     background-position: center;
 }
 .item-4{
-    background-image: url(image/2.png);
+    background-image: url(image/4.png);
     background-size: cover;
     background-position: center;
 }
 .item-5{
-    background-image: url(image/2.png);
+    background-image: url(image/5.png);
     background-size: cover;
     background-position: center;
 }
 .item-6{
-    background-image: url(image/2.png);
+    background-image: url(image/6.png);
     background-size: cover;
     background-position: center;
 }
