@@ -134,7 +134,7 @@ font-weight:600;
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 1rem;
+    gap: 4rem;
     width: 900px;
     margin: auto;
 }
@@ -179,7 +179,7 @@ font-weight:600;
 }
 
 .grid-item:hover{
-    transform: scale(1.1) rotate(1deg);
+    transform: scale(1.05);
     z-index: 1;
 }
 
