@@ -93,7 +93,7 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 gap:30px;
 max-width:900px;
-margin:auto;
+margin: auto;
 transition: transform .3s ease;
 }
 .skills-grid:hover{
@@ -136,7 +136,7 @@ font-weight:600;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 4rem;
-    width: 900px;
+    max-width:900px;
     margin: auto;
 }
 
