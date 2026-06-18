@@ -91,7 +91,7 @@ section {
 .skills-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-gap:30px;
+gap:15px;
 max-width:900px;
 margin: auto;
 transition: transform .3s ease;
@@ -102,7 +102,7 @@ transform: scale(0.99);
 
 .skill-box{
 background:#100022;
-padding:25px;
+padding:20px;
 border-radius:15px;
 text-align:center;
 transition:0.3s;
