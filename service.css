@@ -156,7 +156,7 @@ font-weight:600;
 }
 
 .grid-container:hover .grid-item:not(:hover) {
-    transform: scale(0.99);
+    transform: scale(0.98);
 }
 
 
