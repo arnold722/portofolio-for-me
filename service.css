@@ -148,36 +148,7 @@ font-weight:600;
     box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
 }
 
-.item-1{
-    background-image: url(image/1.png);
-    background-size: cover;
-    background-position: center;
-}
-.item-2{
-    background-image: url(image/2.png);
-    background-size: cover;
-    background-position: center;
-}
-.item-3{
-    background-image: url(image/3.png);
-    background-size: cover;
-    background-position: center;
-}
-.item-4{
-    background-image: url(image/4.png);
-    background-size: cover;
-    background-position: center;
-}
-.item-5{
-    background-image: url(image/5.png);
-    background-size: cover;
-    background-position: center;
-}
-.item-6{
-    background-image: url(image/6.png);
-    background-size: cover;
-    background-position: center;
-}
+
 
 .grid-item:hover{
     transform: scale(1.05);
@@ -185,7 +156,7 @@ font-weight:600;
 }
 
 .grid-container:hover .grid-item:not(:hover) {
-    transform: scale(0.95);
+    transform: scale(0.99);
 }
 
 
