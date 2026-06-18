@@ -97,7 +97,7 @@ margin:auto;
 transition: transform .3s ease;
 }
 .skills-grid:hover{
-transform: scale(0.97);
+transform: scale(0.99);
 }
 
 .skill-box{
