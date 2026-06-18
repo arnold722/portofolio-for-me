@@ -120,8 +120,8 @@ font-weight:500;
 }
 
 .skill-box:hover{
-transform:translateY(-10px);
-box-shadow:0 0 13px #38bff88a;
+transform:translateY(-5px);
+box-shadow:0 0 10px #38bff88a;
 border: 1px solid rgba(146, 146, 146, 0.515);
 }
 
