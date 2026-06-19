@@ -135,3 +135,49 @@ text-align: center;
 margin-bottom:50px;
 font-weight:600;
 }
+
+
+
+.project-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+
+background:rgba(255,255,255,0.06);
+backdrop-filter:blur(12px);
+padding:25px;
+border-radius:15px;
+transition:0.3s;
+min-height:320px;
+border:1px solid rgba(255,255,255,0.1);
+
+}
+
+.card:hover{
+
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 15px 35px rgba(0,0,0,0.6);
+border:1px solid #38bdf8;
+
+}
+.card h3{
+
+margin-top:15px;
+font-size:20px;
+font-weight:600;
+color:#ffffff;
+
+}
+
+.card p{
+
+font-size:14px;
+opacity:0.85;
+color:#e2e8f0;
+margin-top:5px;
+
+}
