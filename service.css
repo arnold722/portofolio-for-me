@@ -43,8 +43,6 @@ section {
 }
 .case .comp:hover{
     transform: scale(1.0);
-    cursor:context-menu;
-    box-shadow: 3px 5px 5px #3f0088;
 }
 
 .case .comp h1{
