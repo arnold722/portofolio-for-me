@@ -1,5 +1,6 @@
 h1{
     color: rgb(77, 77, 77);
+    font-size: 10px;
 }
 
 
@@ -34,6 +35,11 @@ section {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+.case .comp:hover{
+    transform: scale(1.0);
+    cursor:context-menu;
+    box-shadow: 3px 5px 5px #3f0088;
 }
 .case .comp:hover{
     transform: scale(1.0);
