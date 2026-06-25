@@ -343,12 +343,16 @@ footer{
 }
 
 .footer-bottom {
+  cursor: auto;
   margin-top: 60px;
   border-top: 1px solid #222;
   text-align: center;
   padding-top: 15px;
   font-size: 13px;
   color: #888;
+}
+.footer-bottom p{
+  cursor: context-menu;
 }
 
 
