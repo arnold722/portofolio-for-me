@@ -119,6 +119,7 @@ button{
     display: flex;
     padding: 10px;
     width: 100%;
+    transition: .3s ease;
 }
 .icons a{
     margin-left: 20px;
@@ -127,7 +128,10 @@ button{
     transition: ease-in-out .2s;
 }
 .icons img:hover{
-    transform: scale(1.4) rotate(50deg);
+    transform: scale(1.2) rotate(360deg);
+}
+.icons:hover{
+    transform: scale(0.99);
 }
 
 .links{
