@@ -43,9 +43,6 @@ section {
     cursor:context-menu;
     box-shadow: 3px 5px 5px #3f0088;
 }
-.case:hover{
-    transform: scale(0.98);
-}
 
 .case .comp h1{
    font-size: 22px;
