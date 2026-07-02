@@ -82,7 +82,7 @@ body{
     transition: all 0.3s ease-in-out;
     align-items: center;
     border-radius: 100px;
-      transition: background 0.25s ease, color 0.25s ease;
+      transition: 0.25s ease, color 0.25s ease;
       padding: 15px 25px;
     }
 
@@ -109,7 +109,7 @@ body{
       background-image: url(image/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg);
       background-size: cover;
       position: relative;
-      transition: background 0.25s ease;
+      transition: 0.25s ease;
     }
 
     .nav-toggle-label span {
