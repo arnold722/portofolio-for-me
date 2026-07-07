@@ -351,6 +351,8 @@ footer{
   font-size: 13px;
   color: #888;
 }
-
+.footer-bottom p{
+  cursor: context-menu;
+}
 
 
